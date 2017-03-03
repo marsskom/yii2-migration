@@ -1,0 +1,38 @@
+{
+    "name": "studio32x32/yii2-migration",
+    "description": "Extended class for migration based on Yii2 Migration",
+    "keywords": [
+        "yii2",
+        "framework",
+        "yii2 advanced",
+        "components",
+        "migration"
+    ],
+    "authors": [
+        {
+            "name": "Andriy Prakapas",
+            "email": "marsskom@gmail.com",
+            "homepage": "http://prakapas.com.ua/",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "version": "1.0",
+    "support": {
+        "issues": "https://github.com/studio32x32/yii2-migration/issues",
+        "source": "https://github.com/studio32x32/yii2-migration"
+    },
+    "require": {
+        "php": ">=5.6",
+        "yiisoft/yii2": "^2.0.6"
+    },
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "studio32x32\\components\\migration\\": "src/"
+        }
+    }
+}
